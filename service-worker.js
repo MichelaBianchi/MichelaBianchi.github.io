@@ -45,8 +45,8 @@ self.addEventListener('push', event => {
   const title = data.title || 'Notifica'; // Usa un titolo di fallback se il titolo è undefined
   const options = {
     body: data.body,
-    icon: '/icon.png',
-    badge: '/badge.png',
+    icon: '/logo192.png',
+    badge: '/logo192.png',
     tag: data.tag // Usa il tag per evitare notifiche duplicate
   };
   event.waitUntil(self.registration.showNotification(title, options));
