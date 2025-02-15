@@ -38,3 +38,16 @@ self.addEventListener("activate", event => {
     })
   );
 });
+
+self.addEventListener('push', event => {
+  const data = event.data.json();
+  console.log('Push event received:', data); // Aggiungi questo per il debug
+  const title = data.title || 'Notifica'; // Usa un titolo di fallback se il titolo è undefined
+  const options = {
+    body: data.body,
+    icon: '/icon.png',
+    badge: '/badge.png',
+    tag: data.tag // Usa il tag per evitare notifiche duplicate
+  };
+  event.waitUntil(self.registration.showNotification(title, options));
+});
