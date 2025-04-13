@@ -31,7 +31,9 @@
     "static/media/pharmacy.svg": "/static/media/pharmacy.9028ddab3ee6a8eddfa127d1d1e24eaa.svg",
     "static/media/church.svg": "/static/media/church.47ce0ad28d7ba5a96a624faadc039334.svg",
     "static/media/food.svg": "/static/media/food.e40e1aed7c404b6c246f85ad89143504.svg",
-    "styles.css.map": "/static/css/styles.css.map"
+    "styles.css.map": "/static/css/styles.css.map",
+    "main.js.map": "/static/js/main.js.map",
+    "453.chunk.js.map": "/static/js/453.chunk.js.map"
   },
   "entrypoints": [
     "static/css/styles.css",
