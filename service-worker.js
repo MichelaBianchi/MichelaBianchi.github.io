@@ -4,8 +4,7 @@ const urlsToCache = [
     "/index.html",
     "/logowide.png",
     "/logo192.png",
-    "/logo512.png",
-    "/static/media",
+    "/logo512.png"
     // Aggiungi altre risorse statiche qui
   ];
   
