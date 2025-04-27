@@ -1,19 +1,27 @@
 const CACHE_NAME = "my-app-cache-v1";
 const urlsToCache = [
-  "/" // Solo la root
-];
+    "/",
+    "/index.html",
+    "/logowide.png",
+    "/logo192.png",
+    "/logo512.png",
+    "/static/media",
+    // Aggiungi altre risorse statiche qui
+  ];
+  
 
 // Funzione per aggiungere tutte le risorse della cartella static alla cache
 const cacheStaticAssets = async (cache) => {
-  try {
-    const response = await fetch('/asset-manifest.json');
-    const assets = await response.json();
-    const urls = Object.values(assets.files);
-    return cache.addAll(urls);
-  } catch (error) {
-    console.error('Failed to cache static assets:', error);
-  }
-};
+    try {
+      const response = await fetch('/asset-manifest.json');
+      const assets = await response.json();
+      const urls = Object.values(assets.files);
+      console.log('Assets to cache:', urls); // Aggiungi questo per il debug
+      return cache.addAll(urls);
+    } catch (error) {
+      console.error('Failed to cache static assets:', error);
+    }
+  };
 
 self.addEventListener("install", event => {
   event.waitUntil(
