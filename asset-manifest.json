@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/styles.css",
-    "main.js": "/static/js/main.js",
-    "static/js/453.chunk.js": "/static/js/453.chunk.js",
+    "main.js": "/static/js/main.3f6cc3e7f23b5f5d7295.js",
+    "main.css": "/static/css/main.490f137dff709a83cafd.css",
+    "static/js/453.chunk.js": "/static/js/453.fba0058f63ebe1b5e24b.chunk.js",
     "static/media/phone.svg": "/static/media/phone.09747b1e8bcdcb22cc989fbfcd8eeca4.svg",
     "static/media/dog-trekking.svg": "/static/media/dog-trekking.7252c70839d2d8aa4279d798dcb6a6ad.svg",
     "static/media/disc-dog.svg": "/static/media/disc-dog.68835c53ba849a16eea3d6caa5633811.svg",
@@ -34,10 +34,10 @@
     "static/media/parking.svg": "/static/media/parking.81f7e6c200c31fa5800ba5e990a01ed4.svg",
     "static/media/church.svg": "/static/media/church.47ce0ad28d7ba5a96a624faadc039334.svg",
     "static/media/food.svg": "/static/media/food.e40e1aed7c404b6c246f85ad89143504.svg",
-    "styles.css.map": "/static/css/styles.css.map"
+    "main.css.map": "/static/css/main.490f137dff709a83cafd.css.map"
   },
   "entrypoints": [
-    "static/css/styles.css",
-    "static/js/main.js"
+    "static/js/main.3f6cc3e7f23b5f5d7295.js",
+    "static/css/main.490f137dff709a83cafd.css"
   ]
 }
