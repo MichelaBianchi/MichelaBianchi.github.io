@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.f795e73952412652b0dc.js",
-    "main.css": "/static/css/main.bdd21e4d1ab3c1503558.css",
-    "static/js/453.chunk.js": "/static/js/453.f6950d1430b8c808a0c7.chunk.js",
+    "main.js": "/static/js/main.03914f21cac5a157a04c.js",
+    "main.css": "/static/css/main.d360289618982bf98b89.css",
+    "static/js/453.chunk.js": "/static/js/453.e52c62a38775f481a50d.chunk.js",
     "static/media/phone.svg": "/static/media/phone.09747b1e8bcdcb22cc989fbfcd8eeca4.svg",
     "static/media/dog-trekking.svg": "/static/media/dog-trekking.7252c70839d2d8aa4279d798dcb6a6ad.svg",
     "static/media/disc-dog.svg": "/static/media/disc-dog.68835c53ba849a16eea3d6caa5633811.svg",
@@ -34,10 +34,10 @@
     "static/media/parking.svg": "/static/media/parking.81f7e6c200c31fa5800ba5e990a01ed4.svg",
     "static/media/church.svg": "/static/media/church.47ce0ad28d7ba5a96a624faadc039334.svg",
     "static/media/food.svg": "/static/media/food.e40e1aed7c404b6c246f85ad89143504.svg",
-    "main.css.map": "/static/css/main.bdd21e4d1ab3c1503558.css.map"
+    "main.css.map": "/static/css/main.d360289618982bf98b89.css.map"
   },
   "entrypoints": [
-    "static/js/main.f795e73952412652b0dc.js",
-    "static/css/main.bdd21e4d1ab3c1503558.css"
+    "static/js/main.03914f21cac5a157a04c.js",
+    "static/css/main.d360289618982bf98b89.css"
   ]
 }
