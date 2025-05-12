@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.03914f21cac5a157a04c.js",
-    "main.css": "/static/css/main.d360289618982bf98b89.css",
-    "static/js/453.chunk.js": "/static/js/453.e52c62a38775f481a50d.chunk.js",
+    "main.js": "/static/js/main.1950e1ed676f4a0a1708.js",
+    "main.css": "/static/css/main.4e37d70b7f06ffc9f9ed.css",
+    "static/js/453.chunk.js": "/static/js/453.fe427bf3a8b7748ddb32.chunk.js",
     "static/media/phone.svg": "/static/media/phone.09747b1e8bcdcb22cc989fbfcd8eeca4.svg",
     "static/media/dog-trekking.svg": "/static/media/dog-trekking.7252c70839d2d8aa4279d798dcb6a6ad.svg",
+    "static/media/stall.svg": "/static/media/stall.60e8706ae4ed8e5723d5f715d9865d0e.svg",
     "static/media/disc-dog.svg": "/static/media/disc-dog.68835c53ba849a16eea3d6caa5633811.svg",
+    "static/media/path.svg": "/static/media/path.e2e5561efef1167e96f94dd51c40411e.svg",
     "static/media/parkour.svg": "/static/media/parkour.65159a3414f8d54596cc8ae0719ecaf3.svg",
     "static/media/trekking.svg": "/static/media/trekking.1a07d5434f8fb13bde025e2708e9407c.svg",
     "static/media/orienteering.svg": "/static/media/orienteering.07a7f55c3d7d35507d62f9a2eb0de3d4.svg",
@@ -34,10 +36,10 @@
     "static/media/parking.svg": "/static/media/parking.81f7e6c200c31fa5800ba5e990a01ed4.svg",
     "static/media/church.svg": "/static/media/church.47ce0ad28d7ba5a96a624faadc039334.svg",
     "static/media/food.svg": "/static/media/food.e40e1aed7c404b6c246f85ad89143504.svg",
-    "main.css.map": "/static/css/main.d360289618982bf98b89.css.map"
+    "main.css.map": "/static/css/main.4e37d70b7f06ffc9f9ed.css.map"
   },
   "entrypoints": [
-    "static/js/main.03914f21cac5a157a04c.js",
-    "static/css/main.d360289618982bf98b89.css"
+    "static/js/main.1950e1ed676f4a0a1708.js",
+    "static/css/main.4e37d70b7f06ffc9f9ed.css"
   ]
 }
