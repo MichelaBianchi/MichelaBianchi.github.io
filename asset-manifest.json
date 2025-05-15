@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.367d14d6eef593e1f7ec.js",
+    "main.js": "/static/js/main.224b108186a84bf4b178.js",
     "main.css": "/static/css/main.101899b01d1bd80563e5.css",
-    "static/js/453.chunk.js": "/static/js/453.f3ed9fbc9800d8f2085b.chunk.js",
+    "static/js/453.chunk.js": "/static/js/453.6b05d4e65396ffbdbfe4.chunk.js",
     "static/media/phone.svg": "/static/media/phone.09747b1e8bcdcb22cc989fbfcd8eeca4.svg",
     "static/media/dog-trekking.svg": "/static/media/dog-trekking.7252c70839d2d8aa4279d798dcb6a6ad.svg",
     "static/media/stall.svg": "/static/media/stall.60e8706ae4ed8e5723d5f715d9865d0e.svg",
@@ -39,7 +39,7 @@
     "main.css.map": "/static/css/main.101899b01d1bd80563e5.css.map"
   },
   "entrypoints": [
-    "static/js/main.367d14d6eef593e1f7ec.js",
+    "static/js/main.224b108186a84bf4b178.js",
     "static/css/main.101899b01d1bd80563e5.css"
   ]
 }

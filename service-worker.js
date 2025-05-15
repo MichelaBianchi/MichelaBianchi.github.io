@@ -1,4 +1,4 @@
-const CACHE_NAME = "my-app-cache-v7";
+const CACHE_NAME = "my-app-cache-v8";
 const urlsToCache = [
   "/",
   "/index.html",
@@ -44,9 +44,17 @@ self.addEventListener("activate", event => {
           }
         })
       );
-    }).then(() => self.clients.claim()) // Prende subito il controllo delle pagine
+    }).then(() => {
+      self.clients.claim();
+      return self.clients.matchAll({ type: 'window' }).then(clients => {
+        clients.forEach(client => {
+          client.postMessage({ type: 'NEW_VERSION_AVAILABLE' });
+        });
+      });
+    })
   );
 });
+
 
 self.addEventListener("fetch", event => {
   event.respondWith(
