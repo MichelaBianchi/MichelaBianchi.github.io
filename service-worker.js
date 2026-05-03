@@ -64,7 +64,7 @@ self.addEventListener("fetch", (event) => {
 
   // Non intercettare API backend
   const isBackendApi =
-    url.origin === "https://moverapp-dev-alb-318480105.eu-central-1.elb.amazonaws.com" ||
+    url.origin === "https://backend-mover.com" ||
     url.pathname.startsWith("/mover/");
 
   if (isBackendApi) {
